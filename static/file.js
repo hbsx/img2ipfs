@@ -143,7 +143,7 @@ $(() => {
                     return xhr;
                 },
                 success: res => {
-                    var imgSrc = 'https://ipfs.fleek.co/ipfs/'+res.Hash
+                    var imgSrc = 'https://tuchuang.hao129.us.kg/ipfs/'+res.Hash
                     /* 清除input框 */
                     $('#file').val(null);
                     if (res.code === -1) {
